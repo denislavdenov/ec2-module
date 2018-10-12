@@ -40,4 +40,8 @@ variable "security_group_id" {
   type        = "string"
   description = "The AWS security group with ingress and egress rules for this instance."
   default     = ""
-}```
+}
+```
+3. You need to have terraform installed
+`terraform init`
+`terraform apply`
